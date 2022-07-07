@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {  width: 900px;}
+</style>
+</head>
+<body>
+
+<h1>THIS IS PAGE 3</h1>
+<div id="demo">DEMO</div>
+
+<input id="x1" type="text" value="name">
+
+<h2>Input Button</h2>
+
+<input type="button" onclick="myFunction(x1)" value="Click Me!">
+
+<script>
+function myFunction(d) {
+//let temp = document.getElementById("demo").value;
+var temp = document.getElementById("x1").value;
+document.getElementById("demo").innerHTML = temp;
+}
+</script>
+</body>
+</html>
